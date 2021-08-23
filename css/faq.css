@@ -1,0 +1,28 @@
+
+.header-color-faq{
+    background: #DAFFF6;
+}
+
+.faq{
+    padding: 0 10rem;
+}
+
+.faq h3{
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+.faq ul li{
+    border-bottom: 1px solid #c9c3c3;
+    padding: 2rem;
+}
+
+.faq ul li p:first-of-type{
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.faq ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
