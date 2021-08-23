@@ -37,10 +37,15 @@
     margin-right: 1rem;
 }
 
+/* vaccine certificate */
+.vaccine-certificate{
+    margin: auto 10rem; 
+}
+
+
 /* captcha */
 .captcha{
-    padding-top: 2.5rem;
-    margin: 2rem 10rem; 
+    margin: 1.5rem 10rem; 
 }
 .random-captcha-part{
     border: 1px solid rgb(97, 82, 82);
