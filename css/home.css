@@ -1,29 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@font-face {
-    font-family: SolaimanLipi;
-    src: url(font/SolaimanLipi.ttf);
-}
-
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    font-family: 'SolaimanLipi','Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 }
 
 /* header start ------------------------------------------------------------*/
-.header-logo img{
-    width: 100%;
-}  
-.main-container{
-    width: 100%;
-}
 
-header{
+
+.header{
+    height: auto;
     position: fixed;
     width: 100%;
     background: #F9FBFF;
@@ -34,6 +26,9 @@ header{
     padding: 5px 0;
     box-shadow: 10px 10px 10px rgba(110, 106, 106, 0.1);
 }
+.header-logo img{
+    width: 100%;
+}  
 .nav-list{
     display: flex;
     justify-content: space-around;
@@ -80,6 +75,129 @@ header{
 
 }
 /* header end -------------------------------------------------------------*/
+
+/* left part start */
+
+.two-part{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaccine-home-reg{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem;
+    background: #a3a8b3;
+}
+.vaccine-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    
+}
+.vaccine-lower{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/*  right part start */
+.vaccine-home-reg-status{
+    padding: 1rem;
+}
+.vaccine-reg-status{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    background:rgb(172, 105, 105) ;
+}
+
+.vaccine-reg-status img{
+    width: 50%;
+    height: 50%;
+}
+/*  right part end */
+
+
+.app-download{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app-download p{
+    font-weight: bolder;
+}
+
+/* covid - 19  procedure*/
+.vaccine-procedure-div{
+    display: flex;
+    flex-direction:row;
+}
+.procedure-div{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.procedure-div h4{
+    margin: 1rem 0;
+}
+.procedure-div p{
+    line-height: 1.5rem;
+}
+/* mujib 100 */
+.mujib-100{
+    margin: 2.5rem 15rem;
+    padding: 2.5rem 0;
+    box-shadow: 2px 15px 15px 10px rgba(110, 106, 106, 0.1);
+}
+.mujib{
+    margin-left: 2rem;
+    border-left: .3rem solid rgb(221, 38, 38);
+    margin-bottom: 3rem;
+}
+.mujib h3{
+    margin-left: .8rem;  
+    font-size: 1.6rem;  
+}
+
+.mujib-div img{
+    width: 13rem;
+}
+
+.mujib-100-div{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.mujib-links{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 3rem;
+}
+.mujib-links a{
+    text-decoration: none;
+    color: #212529;
+
+}
+.mujib-links a:hover{
+    text-decoration: underline;
+}
 
 
 /* footer start ------------------------------------------------------------*/
