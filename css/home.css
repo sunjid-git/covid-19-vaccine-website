@@ -79,28 +79,33 @@ body{
 /* left part start */
 
 .two-part{
-    margin-top: 5rem;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(#FFBA5B,#FEDCAC );
 }
 
 .vaccine-home-reg{
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    padding: 1rem;
-    background: #a3a8b3;
+    background: rgb(254, 253, 253);
+    padding: 0 4rem;
+    border-radius: 10px;
+    border-bottom: .5rem solid #0A2F8D;
+}
+.vaccine-home-reg:hover{
+    background:#DAEDFF;
 }
 .vaccine-upper{
+    padding: 2rem 0;
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items:center;
-    
+    margin-bottom: 3rem;
 }
 .vaccine-lower{
+    padding: 3rem 0;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -112,17 +117,57 @@ body{
 .vaccine-home-reg-status{
     padding: 1rem;
 }
+
 .vaccine-reg-status{
     display: flex;
     flex-direction:row;
     justify-content:space-evenly;
     align-items:center;
-    background:rgb(172, 105, 105) ;
+    background:rgb(254, 254, 254) ;
+    margin: 1.6rem 0;
+    padding:5px;
+    border-radius: 10px;
+}
+.vaccine-reg-status img,.vaccine-reg-status p{
+    margin: 0 15px;
 }
 
+.vaccine-reg-status:nth-child(1){
+    border-left: .5rem solid #0D7B2C;
+}
+.vaccine-reg-status:hover:nth-child(1){
+    background:#DFFFDA;
+}
+
+.vaccine-reg-status:nth-child(2){
+    border-left: .5rem solid #D8DE00;
+    
+}
+.vaccine-reg-status:hover:nth-child(2){
+    background:#FFD8A1;
+}
+
+.vaccine-reg-status:nth-child(3){
+    border-left: .5rem solid #25BE88;
+}
+.vaccine-reg-status:hover:nth-child(3){
+    background:#DAFFF2;
+}
+
+.vaccine-reg-status:nth-child(4){
+    border-left: .5rem solid #5FC6CC;
+
+}
+.vaccine-reg-status:hover:nth-child(4){
+    background:#DAFDFF;
+}
+
+
 .vaccine-reg-status img{
-    width: 50%;
-    height: 50%;
+    width: 5rem;
+    height: 4.5rem;
+    margin-right: 3rem;
+    padding:5px
 }
 /*  right part end */
 
@@ -130,7 +175,7 @@ body{
 .app-download{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -144,7 +189,7 @@ body{
     flex-direction:row;
 }
 .procedure-div{
-    padding: 1.5rem;
+    padding:  0 1.5rem;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -155,6 +200,7 @@ body{
 }
 .procedure-div p{
     line-height: 1.5rem;
+    font-size: .9rem;
 }
 /* mujib 100 */
 .mujib-100{
