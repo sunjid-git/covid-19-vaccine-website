@@ -172,6 +172,39 @@ body{
 /*  right part end */
 
 
+/* call center */
+
+.call-center{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding: 1.5rem;
+    box-shadow: 2px 15px 15px 10px rgba(110, 106, 106, 0.1);
+    margin: -4rem 12rem;
+    background:#FFFFFF;
+}
+
+.call-center div{
+    padding: .5rem 1.5rem;
+    text-align: center;
+    border-right: .5px solid gray;
+}
+
+.call-center div:last-of-type{
+    border-right: none;
+}
+.call-center p:first-of-type{
+    color: green;
+    font-weight: bold;
+}
+.call-center p:last-of-type{
+    color: #0A2F8D;
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+/* app download */
 .app-download{
     display: flex;
     flex-direction:row;
@@ -204,7 +237,7 @@ body{
 }
 /* mujib 100 */
 .mujib-100{
-    margin: 2.5rem 15rem;
+    margin: 8.5rem 15rem;
     padding: 2.5rem 0;
     box-shadow: 2px 15px 15px 10px rgba(110, 106, 106, 0.1);
 }
