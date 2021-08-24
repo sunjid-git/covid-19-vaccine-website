@@ -183,6 +183,7 @@ body{
     box-shadow: 2px 15px 15px 10px rgba(110, 106, 106, 0.1);
     margin: -4rem 12rem;
     background:#FFFFFF;
+    border-radius: 8px;
 }
 
 .call-center div{
@@ -208,12 +209,13 @@ body{
 .app-download{
     display: flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .app-download p{
     font-weight: bolder;
+    margin-right: 20rem;
 }
 
 /* covid - 19  procedure*/
@@ -240,6 +242,7 @@ body{
     margin: 8.5rem 15rem;
     padding: 2.5rem 0;
     box-shadow: 2px 15px 15px 10px rgba(110, 106, 106, 0.1);
+    border-radius: 8px;
 }
 .mujib{
     margin-left: 2rem;
