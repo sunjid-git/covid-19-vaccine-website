@@ -275,6 +275,7 @@ body{
 .mujib-links a{
     text-decoration: none;
     color: #212529;
+    font-weight: bold;
 
 }
 .mujib-links a:hover{
