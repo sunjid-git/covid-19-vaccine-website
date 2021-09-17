@@ -19,6 +19,6 @@
 2. CSS
 ### `Google Drive to Web for Deployment`
 
-### Static Clone of surokkha.gov.bd
-### Contains only static functionality
-### Not responsive yet
+### 1. Static Clone of surokkha.gov.bd
+### 2. Contains only static functionality
+### 3. Not responsive yet
