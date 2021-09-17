@@ -17,7 +17,7 @@
 ### `Tech Stack`
 1. HTML
 2. CSS
-### `Google Drive to Web for Deployment`
+### `Deployment - Google Drive to Web for Hosting`
 
 ### 1. Static Clone of surokkha.gov.bd
 ### 2. Contains only static functionality
